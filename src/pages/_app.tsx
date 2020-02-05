@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default class NextApp extends App {
-  public render(): React.ReactNode {
+  public render(): JSX.Element {
     const { Component, pageProps } = this.props;
 
     return (
